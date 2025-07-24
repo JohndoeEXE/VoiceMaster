@@ -1,0 +1,28 @@
+{
+  "name": "discord-voicemaster-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for creating temporary voice channels with advanced moderation features",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "voice",
+    "channels",
+    "temporary"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
