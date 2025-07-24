@@ -11,7 +11,7 @@ const client = new Client({
 
 // Store temporary VCs and their data
 const tempChannels = new Map(); // channelId -> { ownerId, rejectedUsers: Set(), locked: boolean, permittedUsers: Set() }
-const JOIN_TO_CREATE_NAME = "Join To Create";
+const JOIN_TO_CREATE_NAME = "JTC";
 
 client.once('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
